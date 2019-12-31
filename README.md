@@ -18,7 +18,9 @@ The following code is fully parallelised and requires the Parallel Toolbox in Ma
 ---------------------------------------------------
 
 Load the model (e.g. the one with biomass and phosphoglycerate dehydrogenase set as objectives)
->> load('recon2_merged_bio_PHGDH.mat')
+```matlab
+load('recon2_merged_bio_PHGDH.mat')
+```
 
 To start the optimization, run
 ```matlab
